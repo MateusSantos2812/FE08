@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.linha {
+  display: flex;
+  gap: 10px;
+}
+
+.item {
+  color: white;
+  padding: 16px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.item-a {
+  background-color: #E91E63;
+}
+
+.item-b {
+  background-color: #9C27B0;
+}
+
+.item-c {
+  background-color: #673AB7;
+}
